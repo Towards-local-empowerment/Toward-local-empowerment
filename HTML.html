@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <main>
+        <p id="firstpara" class="firstpara" >Bienvenue au Kenya !</p>
+        <img src="photo.jpg" id="myButton" class="monboutton" >
+        <img src="home1.jpg" id="home1" class="maison1" >
+        <img src="carte kenya" id="kenyamap" class="cartekenya" >
+        <img src="les deux mdr.jpg" class="montkenya" id="montkenya" >
+        <img src="logo tourisme.jpg" class="tourism" id="tourisme" >
+        <p class="présentation" id="présentation" >Kenya, a jewel of East Africa, boasts an incredible tapestry of landscapes and cultures.
+            From the majestic snow-capped peak of Mount Kenya to the vast savannas of the Maasai Mara,
+            teeming with wildlife, the natural beauty is awe-inspiring. 
+            Coastal regions like Mombasa offer stunning beaches and vibrant coral reefs, 
+            while cities such as Nairobi blend modernity with rich traditions. 
+            The diverse ethnic groups, each with their unique customs and languages, 
+            add to the rich cultural mosaic of the nation. Kenya is not just a country, 
+            but a symphony of sights, sounds, and experiences waiting to be explored.</p>
+        <p class="cinqgrand" id="Bigfives" >BIG FIVE</p>
+        <p class="geo" id="geo" >Kenya, officially the Republic of Kenya (Swahili: Jamhuri ya Kenya), is a country in East Africa. 
+            With a population of more than 47.6 million in the 2019 census,
+            [12] Kenya is the 28th-most-populous country in the world[7] and 7th most populous in Africa. 
+            Kenya's capital and largest city is Nairobi, while its oldest and second-largest city, 
+            is the major port city of Mombasa, situated on Mombasa Island in the Indian Ocean and the surrounding mainland. 
+            Mombasa was the capital of the British East Africa Protectorate, 
+            which included most of what is now Kenya and southwestern Somalia, 
+            from 1889 to 1907. Other important cities include Kisumu and Nakuru. 
+            Kenya is bordered by South Sudan to the northwest, Ethiopia to the north, 
+            Somalia to the east, Uganda to the west, Tanzania to the south, and the Indian Ocean to the southeast.</p>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <div id="map" style="height: 600px;"></div>
+            
+        <div id="myContent" class="hidden">
+            <section class="gallery" id="gallery">
+                <img src="img4.jpeg" alt="" class="thumbnail">
+                <img src="img6.jpeg" alt="" class="thumbnail">
+                <img src="img11.jpeg"alt="" class="thumbnail">
+            </section>
+        </div>
+        <div id="modal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImg">
+            <div id="caption"></div>
+    </main>
+    <script src="JavScript.js"></script>
+</body>
+</html>
